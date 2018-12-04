@@ -8,6 +8,4 @@ redirect_from:
   - /about.html
 ---
 
-About me
-======
 Currently Data Scientist at MLB. Professor of Sports Analytics at Fordham University.
