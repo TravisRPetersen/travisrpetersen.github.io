@@ -7,5 +7,4 @@ redirect_from:
   - /about/
   - /about.html
 ---
-
-Currently Data Scientist at MLB. Professor of Sports Analytics at Fordham University.
+Senior Data Scientist at MLB. Professor of Sports Analytics at Fordham University.
