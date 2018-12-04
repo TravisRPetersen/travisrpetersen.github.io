@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Travis Petersen / Sports Analytics Blog"
+title                    : "Sports Analytics Blog"
 title_separator          : "-"
 name                     : &name "Travis Petersen"
 description              : &description "Data Scientist"
