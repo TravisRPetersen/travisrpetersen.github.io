@@ -9,7 +9,7 @@ tags:
   - QBR
 ---
 
-On December 19th, the Oakland Raiders shocked the football community by signing Nathan Peterman to their practice squad after a terrible year with the Buffalo Bills.  Advanced stats aren’t really needed to describe how poorly Peterman played. A 54.3% completion percentage, a 30.7 quarterback rating, and a 1/7 TD/INT ratio did just fine at describing 
+On December 19th, the Oakland Raiders shocked the football community by signing Nathan Peterman to their practice squad after a terrible year with the Buffalo Bills.  Advanced stats aren’t really needed to describe how poorly Peterman played. A 54.3% completion percentage, a 30.7 quarterback rating, and a 1/7 TD/INT ratio did just fine at describing how bad he was.
 
 I was curious nonetheless to see how Peterman’s 2018 QBR of 6.5 ranked since 2006.  [Pro Football Reference](https://www.pro-football-reference.com/players/P/PeteNa00.htm) has the stat by year for Peterman but no easy way to sort historical QBR in ascending order.  [ESPN’s website]( http://www.espn.com/nfl/qbr) does allow for sorting but the limit for qualifying is too high for Peterman’s 106 Total QB Plays.  
 
