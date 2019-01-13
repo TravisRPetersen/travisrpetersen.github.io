@@ -9,9 +9,6 @@ tags:
   - QBR
 ---
 
-Peterman’s Ineptitude: Web Scraping with Pandas Read_HTML
-======
-
 On December 19th, the Oakland Raiders shocked the football community by signing Nathan Peterman to their practice squad after a terrible year with the Buffalo Bills.  Advanced stats aren’t really needed to describe how poorly Peterman played; a 54.3% completion percentage, 30.7 quarterback rating and a 1/7 TD/INT ratio did just fine.
 
 I was curious nonetheless to see how Peterman’s 2018 QBR of 6.5 ranked since 2006.  [Pro Football Reference](https://www.pro-football-reference.com/players/P/PeteNa00.htm) has the stat by year for Peterman but no easy way to sort historical QBR in ascending order.  [ESPN’s website]( http://www.espn.com/nfl/qbr) does allow for sorting but the limit for qualifying is too high for Peterman’s 106 Total QB Plays.  
