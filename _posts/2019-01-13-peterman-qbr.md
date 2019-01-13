@@ -1,11 +1,12 @@
 ---
-title: 'Blog Post number 1'
+title: 'Peterman’s Ineptitude: Web Scraping with Pandas Read_HTML'
 date: 2019-01-13
-permalink: /posts/2019/1/blog-post-1/
+permalink: /posts/2019/1/web-scraping-pandas-nathan-peterman/
 tags:
-  - predictions
-  - fivethirtyeight
-  - fangraphs
+  - pandas
+  - NFL
+  - Nathan Peterman
+  - QBR
 ---
 
 Peterman’s Ineptitude: Web Scraping with Pandas Read_HTML
@@ -98,7 +99,7 @@ By [using method chaining]( https://tomaugspurger.github.io/method-chaining) we 
 .reset_index(drop=True).head(10))
 ```
 
-Per ESPN's Total QBR, Nathan Peterman had the second-worst QB season since 2006 for all players with at least 100 QB Plays.  
+Per ESPN's Total QBR, Nathan Peterman had the second-worst QB season since 2006 for all players with at least 100 QB Plays. Only Blaine Gabbert's 2013 season ranks worse. 
 
 
 <div>
@@ -200,4 +201,103 @@ Per ESPN's Total QBR, Nathan Peterman had the second-worst QB season since 2006 
 </table>
 </div>
 
+If we relax the QB plays filter to 75 plays, Peterman ranks third since 2006, with Byron Leftwich's 2007 season with Atlanta at 6.6 slightly worse.
 
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>PLAYER</th>
+      <th>YEAR</th>
+      <th>QB_PLAYS</th>
+      <th>TOTAL_QBR</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Blaine Gabbert, JAX</td>
+      <td>2013</td>
+      <td>110</td>
+      <td>4.0</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Byron Leftwich, ATL</td>
+      <td>2007</td>
+      <td>75</td>
+      <td>6.6</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Nathan Peterman, BUF/OAK</td>
+      <td>2018</td>
+      <td>106</td>
+      <td>8.7</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Max Hall, ARI</td>
+      <td>2010</td>
+      <td>96</td>
+      <td>8.8</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Ryan Lindley, ARI</td>
+      <td>2012</td>
+      <td>196</td>
+      <td>10.2</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>Tarvaris Jackson, MIN</td>
+      <td>2006</td>
+      <td>110</td>
+      <td>11.5</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>John Beck, MIA</td>
+      <td>2007</td>
+      <td>128</td>
+      <td>13.3</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>Jimmy Clausen, CAR</td>
+      <td>2010</td>
+      <td>378</td>
+      <td>13.8</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>Bryce Petty, NYJ</td>
+      <td>2016</td>
+      <td>161</td>
+      <td>15.9</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>Kerry Collins, IND</td>
+      <td>2011</td>
+      <td>109</td>
+      <td>16.8</td>
+    </tr>
+  </tbody>
+</table>
+</div>
