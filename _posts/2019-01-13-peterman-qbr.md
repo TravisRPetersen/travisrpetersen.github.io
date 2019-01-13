@@ -9,7 +9,7 @@ tags:
   - QBR
 ---
 
-On December 19th, the Oakland Raiders shocked the football community by signing Nathan Peterman to their practice squad after a terrible year with the Buffalo Bills.  Advanced stats aren’t really needed to describe how poorly Peterman played; a 54.3% completion percentage, 30.7 quarterback rating and a 1/7 TD/INT ratio did just fine.
+On December 19th, the Oakland Raiders shocked the football community by signing Nathan Peterman to their practice squad after a terrible year with the Buffalo Bills.  Advanced stats aren’t really needed to describe how poorly Peterman played. A 54.3% completion percentage, a 30.7 quarterback rating, and a 1/7 TD/INT ratio did just fine at describing 
 
 I was curious nonetheless to see how Peterman’s 2018 QBR of 6.5 ranked since 2006.  [Pro Football Reference](https://www.pro-football-reference.com/players/P/PeteNa00.htm) has the stat by year for Peterman but no easy way to sort historical QBR in ascending order.  [ESPN’s website]( http://www.espn.com/nfl/qbr) does allow for sorting but the limit for qualifying is too high for Peterman’s 106 Total QB Plays.  
 
@@ -19,7 +19,7 @@ In order to complete the analysis, we’ll need to a) combine the qualified and 
 
 To do so, we’ll need to grab every page for both the qualified and unqualified leaderboards.  There are 8 pages on the qualified leaderboard and 29 pages on the unqualified leaderboards.  We will set up two for loops to loop through 1 through 8, and 1 through 29.  Because python uses [0-based indexing](http://python-history.blogspot.com/2013/10/why-python-uses-0-based-indexing.html), we’ll use the python range function to create an iterator that starts at 1 and ends at 8.
 
-For each n in our iterator we will use the pandas read_html function to return all HTML formatted tables on each page.  As there is only one, we will grab the 0th element of that list and append to our dataframes (all_unq_qbr: unqualified, all_qual_qbr: qualified).
+For each n in our iterator we will use the pandas read_html function to return all HTML formatted tables on each page.  As there is only one, we will grab the first element [0] of that list and append to our dataframes (all_unq_qbr: unqualified, all_qual_qbr: qualified).
 
 ```python
 import pandas as pd
