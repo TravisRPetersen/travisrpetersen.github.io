@@ -22,7 +22,7 @@ I wrote this up before I realized [StatSheetStuffer.com](https://twitter.com/Sta
 
 ### Football
 
-* The CMU Sports Analytics club, in a project led by Sarah Mallepalle released [next-gen scrapy, a NFL tracking data web scraping repository]((https://www.cmusportsanalytics.com/introduction-to-next-gen-scrapy/).  This will allow the public to get access to all of the passing tracking data and they have future plans to include wide receiver route locations.
+* The CMU Sports Analytics club, in a project led by Sarah Mallepalle released [next-gen scrapy, a NFL tracking data web scraping repository](https://www.cmusportsanalytics.com/introduction-to-next-gen-scrapy/).  This will allow the public to get access to all of the passing tracking data and they have future plans to include wide receiver route locations.
 
 * Sean J. Taylor, Manager of Core Stats team at Facebook, took a quick look at [play calling efficiency of NFL coaches](https://twitter.com/seanjtaylor/status/1086343041743372288).  As he demonstrates, many coaches are too conservative on second down, often optimizing for first downs when they should be optimizing for yardage gained.
 
@@ -39,4 +39,4 @@ Hockey Graphs had a magnificent 3 part explainer on how they developed their WAR
 
 ### Other
 
-[Rocío Joo et al.](https://arxiv.org/abs/1901.05935) compiled a list of 57 movement tracking packages within R and provided recommendations. While the wealth of packages is impressive, they recommend “integration over proliferation” to encourages researchers to evaluate how a new package fits within the ecosystem[(h/t Luke Bornn)](https://twitter.com/LukeBornn/status/1086153744272609280).
+[Rocío Joo et al.](https://arxiv.org/abs/1901.05935) compiled a list of 57 movement tracking packages within R and provided recommendations. While the wealth of packages is impressive, they recommend “integration over proliferation” to encourage researchers to evaluate how a new package fits within the ecosystem[(h/t Luke Bornn)](https://twitter.com/LukeBornn/status/1086153744272609280).
