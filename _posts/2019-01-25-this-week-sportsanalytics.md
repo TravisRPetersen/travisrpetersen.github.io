@@ -14,17 +14,17 @@ I wrote this up before I realized [StatSheetStuffer.com](https://twitter.com/Sta
 
 ### Baseball
 
-* At MLB we’re looking to hire a manager for the [Machine Learning team](http://www.mlb.com/careers/mlbam/?gh_jid=1206615&gh_src=27f9d9861).  We have a lot of exciting projects coming up and we’re putting together a great team (biased here) of data scientists, machine learning engineers, and computer vision experts.  It’s a great opportunity to help build the future of Statcast.
+At MLB we’re looking to hire a manager for the [Machine Learning team](http://www.mlb.com/careers/mlbam/?gh_jid=1206615&gh_src=27f9d9861).  We have a lot of exciting projects coming up and we’re putting together a great team (biased here) of data scientists, machine learning engineers, and computer vision experts.  It’s a great opportunity to help build the future of Statcast.
 
 ### Basketball
 
-* Justin Jacobs took a look at using Manifold Learning to [analyze styles of players](https://squared2020.com/2019/01/16/a-methodology-for-qualitatively-comparing-games/).  He walks through the rebounding responsibilities for the Detroit Pistons.
+Justin Jacobs took a look at using Manifold Learning to [analyze styles of players](https://squared2020.com/2019/01/16/a-methodology-for-qualitatively-comparing-games/).  He walks through the rebounding responsibilities for the Detroit Pistons.
 
 ### Football
 
-* The CMU Sports Analytics club, in a project led by Sarah Mallepalle released [next-gen scrapy, a NFL tracking data web scraping repository](https://www.cmusportsanalytics.com/introduction-to-next-gen-scrapy/).  This will allow the public to get access to all of the passing tracking data and they have future plans to include wide receiver route locations.
+The CMU Sports Analytics club, in a project led by Sarah Mallepalle released [next-gen scrapy, a NFL tracking data web scraping repository](https://www.cmusportsanalytics.com/introduction-to-next-gen-scrapy/).  This will allow the public to get access to all of the passing tracking data and they have future plans to include wide receiver route locations.
 
-* Sean J. Taylor, Manager of Core Stats team at Facebook, took a quick look at [play calling efficiency of NFL coaches](https://twitter.com/seanjtaylor/status/1086343041743372288).  As he demonstrates, many coaches are too conservative on second down, often optimizing for first downs when they should be optimizing for yardage gained.
+Sean J. Taylor, Manager of Core Stats team at Facebook, took a quick look at [play calling efficiency of NFL coaches](https://twitter.com/seanjtaylor/status/1086343041743372288).  As he demonstrates, many coaches are too conservative on second down, often optimizing for first downs when they should be optimizing for yardage gained.
 
 
 ### Soccer
