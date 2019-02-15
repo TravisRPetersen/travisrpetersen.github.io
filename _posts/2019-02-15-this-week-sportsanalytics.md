@@ -10,13 +10,13 @@ tags:
 
 ### Baseball
 
-The economics of baseball is a hot topic this offseason and Mary Brown takes a look at the [underlying data.](https://www.forbes.com/sites/maurybrown/2019/02/11/inside-the-numbers-the-player-salary-battle-lines-between-mlb-and-the-mlbpa/#4027cbab5c14)
+The economics of baseball is a hot topic this offseason and Mary Brown takes a look at the [underlying data](https://www.forbes.com/sites/maurybrown/2019/02/11/inside-the-numbers-the-player-salary-battle-lines-between-mlb-and-the-mlbpa/#4027cbab5c14).
 
-Russell Eassom, writing for Bat Flips and Nerds, takes a deep dive on differences in the effects of the [shift on LHH and RHH.](http://batflipsandnerds.com/2019/02/09/the-shift-what-is-causing-the-lhh-v-rhh-difference/).   It is an in-depth analysis using generalized additive models and great visualizations.  Beyond the depth of the analysis, I find it extremely cool that British fans are taking such an interest in baseball and I can’t wait to see what the upcoming MLB London series has on growing the game abroad.
+Russell Eassom, writing for Bat Flips and Nerds, takes a deep dive on differences in the effects of the [shift on LHH and RHH](http://batflipsandnerds.com/2019/02/09/the-shift-what-is-causing-the-lhh-v-rhh-difference/).   It is an in-depth analysis using generalized additive models and great visualizations.  Beyond the depth of the analysis, I find it extremely cool that British fans are taking such an interest in baseball and I can’t wait to see what the upcoming MLB London series has on growing the game abroad.
 
 ### Basketball
 
-There aren’t a lot of numbers or code, but former VP of Strategy with the 76ers Ben Falk walks through the dilemma NBA GMs face when deciding whether [build for the future or to compete now.]( https://cleaningtheglass.com/possibility-vs-certainty/) Ben currently runs the Cleaning the Glass, which normally behind a paywall but free for this article.  The issue of tanking has been discussed a lot over the offseason with even [Buster Posey getting in on the discussion]( https://twitter.com/BusterPosey/status/1094037273887137792).  As a fan it is tough pill to swallow but as a fan sometimes we can accept the exciting [possibilities of the future]( https://www.theringer.com/mlb/2018/4/2/17187594/chicago-white-sox-redefining-tanking-cubs-astros) while being cognizant that sometimes those prospects might turn into Dustin Ackley, Jesus Montero, and Danny Hultzen.  It seems like this possibility vs. certainty dilemma is the price we pay for competitive balance and avoiding dominant teams like those in Italy’s [Serie A](https://en.wikipedia.org/wiki/List_of_Italian_football_champions) or Spain’s [La Liga.] (https://en.wikipedia.org/wiki/List_of_Spanish_football_champions)
+There aren’t a lot of numbers or code, but former VP of Strategy with the 76ers Ben Falk walks through the dilemma NBA GMs face when deciding whether [build for the future or to compete now]( https://cleaningtheglass.com/possibility-vs-certainty/). Ben currently runs the Cleaning the Glass, which is normally behind a paywall but free for this article.  The issue of tanking has been discussed a lot over the offseason with even [Buster Posey getting in on the discussion]( https://twitter.com/BusterPosey/status/1094037273887137792).  As a fan it is tough pill to swallow but as a fan sometimes we can accept the exciting [possibilities of the future]( https://www.theringer.com/mlb/2018/4/2/17187594/chicago-white-sox-redefining-tanking-cubs-astros) while being cognizant that sometimes those prospects might turn into Dustin Ackley, Jesus Montero, and Danny Hultzen.  It seems like this possibility vs. certainty dilemma is the price we pay for competitive balance and avoiding dominant teams like those in Italy’s [Serie A](https://en.wikipedia.org/wiki/List_of_Italian_football_champions) or Spain’s [La Liga] (https://en.wikipedia.org/wiki/List_of_Spanish_football_champions).
 
 ### Football
 
@@ -32,9 +32,9 @@ Work from Daniel Weimar and Katrin Karfenkamp demonstrates that soccer players s
 
 ### Other
 
-Iyar Lin provides an intro into using DAGs for [causal inference.](https://iyarlin.github.io/2019/02/08/correlation-is-not-causation-so-what-is/)
+Iyar Lin provides an intro into using DAGs for [causal inference](https://iyarlin.github.io/2019/02/08/correlation-is-not-causation-so-what-is/).
 
-Alan L. Yuille and Chenxi Liu discuss the limitations of [Deep Learning for Vision.]( https://thegradient.pub/the-limitations-of-visual-deep-learning-and-how-we-might-fix-them/)
+Alan L. Yuille and Chenxi Liu discuss the limitations of [Deep Learning for Vision]( https://thegradient.pub/the-limitations-of-visual-deep-learning-and-how-we-might-fix-them/).
 
 Vicki Boykis [discusses how the Data Science field has changed](https://veekaybee.github.io/2019/02/13/data-science-is-different/) over the years. I’ve been meaning to put together a post on data science career advice and Vicki has put it much better than I could have.  Personally, my Data Analytics internship with BDO was instrumental to helping me build the SQL skills that I needed to succeed as a data scientist.
 
