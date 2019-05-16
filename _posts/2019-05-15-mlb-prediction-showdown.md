@@ -9,9 +9,9 @@ tags:
   - FiveThirtyEight
 ---
 
-In 2008, Nate Silver created the website FiveThirtyEight with the goal of using data-driven analysis  to raise the bar of political coverage and predictions [(Link)](https://www.thedailybeast.com/why-i-started-fivethirtyeight). Of course, Silver has history with baseball analytics, creating a player performance forecast model called [PECOTA](https://en.wikipedia.org/wiki/PECOTA) and writing for Baseball Prospectus.  So it was no surprise when FiveThirtyEight rolled out a model to predict MLB games in 2016.  
+In 2008, Nate Silver created the website FiveThirtyEight with the goal of using data-driven analysis  to raise the bar of political coverage and predictions [(Link)](https://www.thedailybeast.com/why-i-started-fivethirtyeight). Silver also has history with baseball analytics, creating a player performance forecast model called [PECOTA](https://en.wikipedia.org/wiki/PECOTA) and writing for Baseball Prospectus.  So it was no surprise when FiveThirtyEight rolled out a model to predict MLB games in 2016.  
 
-As a data scientist, I have long been curious as to how the FiveThirtyEight’s predictions compare to Fangraphs.  In this blog post I will focus on the regular season game win probability for the home team provided by the two websites to determine who came out on top between 2016 and 2018.
+As a data scientist, I have long been curious as to how FiveThirtyEight’s predictions compare to Fangraphs.  In this blog post, I will focus on the regular-season-game win probability for the home team provided by the two websites to determine which website came out on top from 2016 to 2018.
 
 ### Methodologies
 
@@ -23,7 +23,7 @@ FiveThirtyEight's predictions use [Elo ratings](https://en.wikipedia.org/wiki/El
 
 * Fangraphs
 
-The predictions at Fangraphs use the ZiPS and Steamer projections for the starting lineups with a 4% adjustment for the home team [(Link)](https://www.fangraphs.com/blogs/fangraphs-game-odds/).
+The Fangraphs predictions use the ZiPS and Steamer projections for the starting lineups with a 4% adjustment for the home team [(Link)](https://www.fangraphs.com/blogs/fangraphs-game-odds/).
 
 ### Exploratory Data Analysis
 
@@ -31,13 +31,13 @@ To start our analysis of the data, we’ll take a look at the probabilities.  We
 
 <img src="https://travisrpetersen.github.io/images/mlb-prediction-showdown-images/prediction_distribution.jpg" alt="prediction_distribution"/>
 
-Baseball is an extremely difficult game to project.  Michael Lopez, Ben Baumer, and Greg Matthews found that it is the major American sport closest to a coin-flip which explains why the predictions from both sources are centered near 50%.
+Baseball is an extremely difficult game to project.  Michael Lopez, Ben Baumer, and Greg Matthews found it is the major American sport closest to a coin-flip which explains why the predictions from both sources are centered near 50%.
 
 <img src="https://travisrpetersen.github.io/images/mlb-prediction-showdown-images/randomness_sports.png" alt="randomness_sports"/>
  
 [Source](https://statsbylopez.netlify.com/post/part-i-randomness-of-games/)
 
-After taking the summary statistics of these predictions for the home team we see that the mean and median for the projections are 54% for Fangraphs and 53% for FiveThirtyEight.  The percentage of games that the home team won from 2016 to 2018 that is 53.2%.  Clearly both projection systems account for the home-field advantage, but it appears Fangraphs might assess too stiff of a penalty to the visiting team.  
+After taking the summary statistics of these predictions for the home team, we see the mean and median for the projections are 54% for Fangraphs and 53% for FiveThirtyEight.  The percentage of games the home team won from 2016 to 2018 is 53.2%.  Clearly both projection systems account for the home-field advantage, but it appears Fangraphs might assess too stiff of a penalty to the visiting team.  
 
 <img src="https://travisrpetersen.github.io/images/mlb-prediction-showdown-images/descriptive_stats.png" alt="descriptive_stats"/>
 
@@ -78,7 +78,7 @@ While these metrics don't help us declare a winner, it helps us determine what e
 
 ### Time Series
 
-Looking at the cumulative accuracy by day, some interesting trends appear.  Before analyzing the data, my hunch was that Fangraphs would be better at predicting games early in the season as I was skeptical that ELO can properly adjust year-to-year with the amount of changes that teams make in the offseason.   The 2016 and 2017 charts somewhat confirm this expectation, with the Fangraphs accuracy higher in April, and May.  But there is an interesting pattern where FiveThirtyEight is able to surpass Fangraphs in cumulative accuracy.  In 2018, FiveThirtyEight lead all year in cumulative accuracy.
+Looking at the cumulative accuracy by day, some interesting trends appear.  Before analyzing the data, my hunch was Fangraphs would be better at predicting games early in the season as I was skeptical ELO can properly adjust year-to-year with the amount of changes teams make in the offseason.   The 2016 and 2017 charts somewhat confirm this expectation, with the Fangraphs accuracy higher in April, and May.  But there is an interesting pattern where FiveThirtyEight is able to surpass Fangraphs in cumulative accuracy.  In 2018, FiveThirtyEight lead all year in cumulative accuracy.
 
 <img src="https://travisrpetersen.github.io/images/mlb-prediction-showdown-images/cumulative_accuracy_2016.jpg" alt="Cumulative Accuracy 2016" width="750"/>
 <img src="https://travisrpetersen.github.io/images/mlb-prediction-showdown-images/cumulative_accuracy_2017.jpg" alt="Cumulative Accuracy 2017" width="750"/>
@@ -92,11 +92,11 @@ The cumulative log loss chart for 2016 tells a similar story where FiveThirtyEig
 <img src="https://travisrpetersen.github.io/images/mlb-prediction-showdown-images/cumulative_logloss_2018.jpg" alt="Cumulative Log Loss 2018" width="750"/>
 
 
-The in-year improvement in performance demonstrates the possibility that FiveThirtyEight's ELO method is able to adjust to in-season developments faster than the Fangraphs model, or perhaps that it is able to pick up on things that purely talent-based projections can't measure (chemistry?). Further analysis would be needed to confirm.
+The in-year improvement in performance demonstrates the possibility FiveThirtyEight's ELO method is able to adjust to in-season developments faster than the Fangraphs model, or perhaps it is able to pick up on things purely talent-based projections can't measure (chemistry?). Further analysis would be needed to confirm.
 
 ### What accounts for the difference?
 
-So far we've established that FiveThirtyEight has a slightly better accuracy, while Fangraphs has better log loss. The models only disagree on 15% of the games.  The home team wins 48% of those games. Given that Fangraphs adjusts the home team a constant 4%, it appears that may be too much of an adjustment. 
+So far we've established FiveThirtyEight has a slightly better accuracy, while Fangraphs has better log loss. The models only disagree on 15% of the games.  The home team wins 48% of those games. Given that Fangraphs adjusts the home team a constant 4%, it appears that may be too much of an adjustment. 
 
 A quick example of how FiveThirtyEight handles home-field advantage can be seen when comparing two games from the [Mariners 2018 season.](https://projects.fivethirtyeight.com/2018-mlb-predictions/mariners/)
 
@@ -123,7 +123,7 @@ Another difference is the different pitcher evaluation metric used.  FiveThirtyE
 * Part of FiveThirtyEight's edge in accuracy is due to a smaller home-field advantage adjustment.  
 * When evaluating accuracy over the course of the season, there is some evidence that FiveThirtyEight's ELO methodology is able to improve relative to Fangraphs.  This may be due to:
     
-    a) A quicker in-season adjustment to player talent changes
+    a) A quicker in-season adjustment to player talent changes, and/or
     
     b) An ability to pick up on other factors present in a teams ability to win not captured by projection systems
     
