@@ -66,7 +66,7 @@ From 2016 to 2018, FiveThirtyEight's log loss was 0.6754, and Fangraphs log loss
 
 Looking at the log loss by year tells a slightly different story.  FiveThirtyEight actually had slightly lower log loss in both 2016 and 2018.  
 
-![Randomness in Baseball](images/mlb-prediction-showdown-images/logloss_by_year.png)
+![Randomness in Baseball]('{{site.baseurl}}/images/mlb-prediction-showdown-images/logloss_by_year.jpg'
 
 
 ### Precision and Recall
