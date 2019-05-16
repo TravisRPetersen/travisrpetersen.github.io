@@ -39,7 +39,7 @@ Baseball is an extremely difficult game to project.  Michael Lopez, Ben Baumer, 
 
 After taking the summary statistics of these predictions for the home team we see that the mean and median for the projections are 54% for Fangraphs and 53% for FiveThirtyEight.  The percentage of games that the home team won from 2016 to 2018 that is 53.2%.  Clearly both projection systems account for the home-field advantage, but it appears Fangraphs might assess too stiff of a penalty to the visiting team.  
 
-<img src="https://travisrpetersen.github.io/images/mlb-prediction-showdown-images/descriptive_stats.jpg" alt="descriptive_stats"/>
+<img src="https://travisrpetersen.github.io/images/mlb-prediction-showdown-images/descriptive_stats.png" alt="descriptive_stats"/>
 
 When taking a look at the correlation between the predictions, we find a Pearson correlation coefficient of .86.  This means there is a strong relationship but still enough room to evaluate how they differ.  
 
@@ -80,16 +80,16 @@ While these metrics don't help us declare a winner, it helps us determine what e
 
 Looking at the cumulative accuracy by day, some interesting trends appear.  Before analyzing the data, my hunch was that Fangraphs would be better at predicting games early in the season as I was skeptical that ELO can properly adjust year-to-year with the amount of changes that teams make in the offseason.   The 2016 and 2017 charts somewhat confirm this expectation, with the Fangraphs accuracy higher in April, and May.  But there is an interesting pattern where FiveThirtyEight is able to surpass Fangraphs in cumulative accuracy.  In 2018, FiveThirtyEight lead all year in cumulative accuracy.
 
-<img src="https://travisrpetersen.github.io/images/mlb-prediction-showdown-images/cumulative_accuracy_2016.jpg" alt="Cumulative Accuracy 2016" width="500"/>
-<img src="https://travisrpetersen.github.io/images/mlb-prediction-showdown-images/cumulative_accuracy_2017.jpg" alt="Cumulative Accuracy 2017" width="500"/>
-<img src="https://travisrpetersen.github.io/images/mlb-prediction-showdown-images/cumulative_accuracy_2018.jpg" alt="Cumulative Accuracy 2018" width="500"/>
+<img src="https://travisrpetersen.github.io/images/mlb-prediction-showdown-images/cumulative_accuracy_2016.jpg" alt="Cumulative Accuracy 2016" width="750"/>
+<img src="https://travisrpetersen.github.io/images/mlb-prediction-showdown-images/cumulative_accuracy_2017.jpg" alt="Cumulative Accuracy 2017" width="750"/>
+<img src="https://travisrpetersen.github.io/images/mlb-prediction-showdown-images/cumulative_accuracy_2018.jpg" alt="Cumulative Accuracy 2018" width="750"/>
 
 
 The cumulative log loss chart for 2016 tells a similar story where FiveThirtyEight lags (lower is better) behind early and is able to pull away later in the year. In 2017 Fangraphs led all season long, and 2018 was close throughout the season.  
 
-<img src="https://travisrpetersen.github.io/images/mlb-prediction-showdown-images/cumulative_logloss_2016.jpg" alt="Cumulative Log Loss 2016" width="500"/>
-<img src="https://travisrpetersen.github.io/images/mlb-prediction-showdown-images/cumulative_logloss_2017.jpg" alt="Cumulative Log Loss 2017" width="500"/>
-<img src="https://travisrpetersen.github.io/images/mlb-prediction-showdown-images/cumulative_logloss_2018.jpg" alt="Cumulative Log Loss 2018" width="500"/>
+<img src="https://travisrpetersen.github.io/images/mlb-prediction-showdown-images/cumulative_logloss_2016.jpg" alt="Cumulative Log Loss 2016" width="750"/>
+<img src="https://travisrpetersen.github.io/images/mlb-prediction-showdown-images/cumulative_logloss_2017.jpg" alt="Cumulative Log Loss 2017" width="750"/>
+<img src="https://travisrpetersen.github.io/images/mlb-prediction-showdown-images/cumulative_logloss_2018.jpg" alt="Cumulative Log Loss 2018" width="750"/>
 
 
 The in-year improvement in performance demonstrates the possibility that FiveThirtyEight's ELO method is able to adjust to in-season developments faster than the Fangraphs model, or perhaps that it is able to pick up on things that purely talent-based projections can't measure (chemistry?). Further analysis would be needed to confirm.
