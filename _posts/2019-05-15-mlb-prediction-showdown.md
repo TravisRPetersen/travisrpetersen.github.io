@@ -33,7 +33,7 @@ To start our analysis of the data, we’ll take a look at the probabilities.  We
 
 Baseball is an extremely difficult game to project.  Michael Lopez, Ben Baumer, and Greg Matthews found that it is the major American sport closest to a coin-flip which explains why the predictions from both sources are centered near 50%.
 
-<img src="https://travisrpetersen.github.io/images/mlb-prediction-showdown-images/randomness_sports.jpg" alt="randomness_sports"/>
+<img src="https://travisrpetersen.github.io/images/mlb-prediction-showdown-images/randomness_sports.png" alt="randomness_sports"/>
  
 [Source](https://statsbylopez.netlify.com/post/part-i-randomness-of-games/)
 
