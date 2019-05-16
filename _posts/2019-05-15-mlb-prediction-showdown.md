@@ -52,7 +52,7 @@ When taking a look at the correlation between the predictions, we find a Pearson
 
 The first metric we will use is accuracy, which means, of all of the games, how many did each model predict correctly.  Using this metric, FiveThirtyEight is a slightly more accurate model, predicting 57.7% of games correctly compared to 56.9% for Fangraphs.  When evaluating accuracy by year, FiveThirtyEight is consistently more accurate. FiveThirtyEight and Fangraphs are about 3 to 6 percent better than a naive model that predicts the home team will win each game.
 
-![Randomness in Baseball](images/mlb-prediction-showdown-images/accuracy_by_year.png)
+![Randomness in Baseball](images/mlb-prediction-showdown-images/accuracy_by_year.jpg)
 
 So FiveThirtyEight wins right? Well in the immortal words of Lee Corso, "Not so fast my friend!" There are a number of other evaluation metrics we can use to understand the performance of the models and their respective strenghths and weaknesses.
 
